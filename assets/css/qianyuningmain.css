@@ -37,12 +37,24 @@ a {color: #242424;}
 a:hover{color:#242424;text-decoration:none}
 canvas { width: 100%; position:absolute;z-index:1;top:0;left: 0; }
 
+
+
+
 #cubeimg {display: block;}
 
 .logo-text{font-family:"Ogg-Roman";font-weight: 200 !important;}
 #line{
     border-bottom: 1px solid #000000;
 }
+.navbar-portfolio {padding:0 24px;}
+.navbar-portfolio h6{margin: 0px;color: rgba(0, 0, 0, 0.4);}
+.now h6{color: #000000;}
+.navbar-portfolio:hover h6{color:rgba(0, 0, 0, 0.9);}
+@media (max-width: 1024px){.navbar-portfolio{display: none;}}
+
+.nav-link-portfolio{display:none; padding:0 10px !important;line-height: 1.2;}
+.nav-link-portfolio a span{font-size: 14px;color:rgba(255,255,255,0.6);font-weight: 400;}
+@media (max-width: 1024px){.nav-link-portfolio{display:block}}
 
 .mob-header .navbar-brand a{color:#C23120;font-weight:700}
 .mob-header.dark .navbar-brand a{color:#353535}
@@ -50,6 +62,8 @@ canvas { width: 100%; position:absolute;z-index:1;top:0;left: 0; }
 .home-banner-01 .ht-text h1 {
     margin-bottom: 6px;
 }
+
+
 
 .px-btn.black{color:#242424;background:#ffffff00}
 .px-btn.black:before{border-color: #242424;border-right:transparent;}
