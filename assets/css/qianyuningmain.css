@@ -237,19 +237,87 @@ canvas { width: 100%; position:absolute;z-index:1;top:0;left: 0; }
 .link-icon{-moz-transition:ease all 0.3s;-o-transition:ease all 0.3s;-webkit-transition:ease all 0.3s;transition:ease all 0.3s}
 
 
-.btn-yellow {
-    font-size: 12px;
+.btn-small {
+    font-size: 0.75rem;
     padding-top: 7px;
     color: #fff;
     background-color: #F7CD58;
     border-color: #F7CD58;
 }
-.btn-yellow:hover {
+
+.btn-big {
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding:14px 20px 10px 20px;
+    line-height: 1;
     color: #fff;
-    background-color: #F7CD58;
-    border-color: #F7CD58;
+    background-color: #7152E1;
+    border-color: #7152E1;
 }
+
 .disabled {
     pointer-events: none;
     opacity: 1 !important;
   }
+
+.section-title h2:after{display:none !important;}
+
+
+.list-style-disc li:before{
+    content: url("../img/disc.svg");
+}
+
+.list-style-disc2 li:before{
+    content: url("../img/disc2.svg");
+}
+
+.centered-and-cropped {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    overflow: hidden;
+    width: auto;
+    max-width: 780px;
+    height: auto;
+    max-height: 720px;
+}
+
+.centered-and-cropped span {
+    display: block;
+    background-image: url(../img/point.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    top:270px;
+    left:180px;    
+}
+
+
+.nextpage{padding:1rem 4.5rem;background-color: #7152E1;}
+
+.nextpage a{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 0.8)
+}
+
+.next{text-align: end;}
+.next a{color:rgba(255, 255, 255, 1);-moz-transition:ease all 0.3s;-o-transition:ease all 0.3s;-webkit-transition:ease all 0.3s;transition:ease all 0.3s}
+.next a:hover{margin-right:-0.3rem;}
+
+.previous{text-align: start;}
+.previous a{-moz-transition:ease all 0.3s;-o-transition:ease all 0.3s;-webkit-transition:ease all 0.3s;transition:ease all 0.3s}
+.previous a:hover{color:rgba(255, 255, 255, 1);margin-left:-0.3rem;}
+
+.color-black{color: #000000 !important;}
+.color-dark{color: #818181 !important;}
+.color-bearpa-purple1{color: #7152E1;}
+.color-bearpa-purple2{color: #9D96AB;}
+.color-bearpa-yellow{color: #F7CD58;}
+.font12{font-size: 0.75rem;}
+.font14{font-size: 0.875rem;}
+.font18{font-size: 1.125rem;}
+.font24{font-size: 1.5rem;}
+.fontbold{font-weight: 600;}
+
+
