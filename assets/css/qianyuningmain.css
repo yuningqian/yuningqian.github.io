@@ -40,6 +40,11 @@ canvas { width: 100%; position:absolute;z-index:1;top:0;left: 0; }
 
 h5{line-height: 1.5 !important;}
 
+.btn-link {
+    text-decoration: none;
+}
+
+
 #cubeimg {display: block;}
 
 .logo-text{font-family:"Ogg-Roman";font-weight: 200 !important;}
@@ -85,6 +90,11 @@ h5{line-height: 1.5 !important;}
     max-width: 600px;
 }
 
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
 
 .about-text p {
     font-size: 14px;
@@ -202,8 +212,8 @@ h5{line-height: 1.5 !important;}
 .portfolio-section{padding-bottom: 60px;}
 .portfolio-section h4{color:#C23120;font-size: 18px;font-weight: 800;letter-spacing:1px;}
 .portfolio-section h6{color:#242424;font-size: 14px;font-weight: 200;line-height: 24px;}
-.portfolio-section p{color:#71797A;font-size: 10px;font-weight: 200;margin-bottom: 0px;bottom:0px;position: absolute;line-height: 10px;}
-.legoimg{height:162px;margin-bottom:30px;}
+.portfolio-section p{color:#71797A;font-size: 10px;font-weight: 200;margin-bottom: 0px;line-height: 10px;}
+.legoimg{height: 200px;padding-bottom: 30px;display: table-cell;vertical-align: bottom;}
 
 .portfolio-section .container{padding-right: 132px;padding-left: 132px;}
 @media (max-width: 426px){.portfolio-section .container{width:60%}}
