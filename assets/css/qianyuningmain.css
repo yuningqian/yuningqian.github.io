@@ -36,7 +36,7 @@ body{font-family:"chinesemain";}
 a {color: #242424;text-decoration:none}
 a:hover{color:#242424;text-decoration:none}
 canvas { width: 100%; position:absolute;z-index:1;top:0;left: 0; }
-
+html{ scroll-behavior:smooth }
 
 h5{line-height: 1.5 !important;}
 
